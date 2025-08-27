@@ -63,8 +63,10 @@ const Contact: React.FC = () => {
     setStatusMessage(''); // Reset any previous status messages.
 
     try {
+
+      const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/send-email`;
       // Send the form data to your backend API endpoint using the fetch API.
-      const response = await fetch('http://localhost:5000/api/send-email', {
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
