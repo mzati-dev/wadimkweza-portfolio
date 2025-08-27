@@ -80,6 +80,9 @@ const Contact: React.FC = () => {
         // If the server responds with a success status code (e.g., 200).
         setStatusMessage('Message sent successfully!');
         setFormData({ name: '', email: '', message: '' }); // Clear the form.
+        setTimeout(() => {
+          setStatusMessage('');
+        }, 3000);
       } else {
         // If the server responds with an error status code (e.g., 400, 500).
         setStatusMessage(result.error || 'An unknown error occurred.');
