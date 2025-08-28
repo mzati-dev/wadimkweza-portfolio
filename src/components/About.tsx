@@ -26,15 +26,15 @@ const About: React.FC = () => {
               About <span className="text-cyan-400">Me</span>
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate AI & Full-Stack Developer with 5+ years of experience creating
-              intelligent and innovative digital solutions.
-              My expertise lies in building robust, scalable web and mobile applications,
-              and I am now focused on integrating Artificial Intelligence to create smarter,
-              more intuitive user experiences.
+              I'm a passionate Full-Stack AI Developer with 5+ years of experience, and
+              I build intelligent, end-to-end digital solutions.
+              My expertise is in transforming AI concepts into robust and scalable applications,
+              leveraging my full-stack skills to create smarter, more intuitive user experiences
+              that deliver tangible value.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, you'll find me diving deep into the latest AI advancements,
-              contributing to open-source projects, or mentoring aspiring developers in the tech community.
+              Beyond my professional work, I'm passionate about exploring the frontiers of AI,
+              contributing to the open-source community, and mentoring the next generation of developers.
             </p>
 
             <div className="mb-8">
