@@ -5,6 +5,21 @@ const Hero: React.FC = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const handleDownloadAndOpen = () => {
+    const cvUrl = '/Wadi_Mkweza_CV.pdf';
+
+    // --- Action 1: Open the CV in a new tab ---
+    window.open(cvUrl, '_blank');
+
+    // --- Action 2: Create a hidden link to trigger the download ---
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.setAttribute('download', 'Wadi_Mkweza_CV.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900">
       {/* Background & Overlays */}
@@ -42,7 +57,16 @@ const Hero: React.FC = () => {
             View My Work
           </Button>
 
-          <a href="/Wadi_Mkweza_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <Button
+            variant="outline"
+            size="lg"
+            className="w-full border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-gray-900 px-8 py-3 text-lg"
+            onClick={handleDownloadAndOpen}
+          >
+            Download CV
+          </Button>
+
+          {/* <a href="/Wadi_Mkweza_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               size="lg"
@@ -50,7 +74,7 @@ const Hero: React.FC = () => {
             >
               View My CV
             </Button>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

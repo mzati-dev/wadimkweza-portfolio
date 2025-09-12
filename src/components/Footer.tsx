@@ -29,8 +29,8 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Passionate developer creating innovative digital solutions with cutting-edge technology
-              and exceptional user experiences.
+              Full-Stack AI Developer building intelligent digital solutions
+              where cutting-edge technology meets exceptional user experience.
             </p>
             <div className="flex space-x-4">
               {/* CHANGED: The array now includes an 'icon' property for each social link. */}
