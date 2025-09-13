@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
       // Your live URL is correctly placed here.
       liveUrl: "https://maternal-frontend.vercel.app",
       // We set this to "#" since you want to keep the code private. The ProjectCard will hide the button.
-      githubUrl: "#"
+      githubUrl: "https://github.com/mzati-dev/maternal-frontend"
     },
     {
       title: "Annex | Knowledge Marketplace",
@@ -21,8 +21,8 @@ const Projects: React.FC = () => {
       image: "/image/annex.png",
       technologies: ["Next.js", "NestJS", "PostgreSQL", "Tailwind CSS"],
       // Set to "#" because it's not ready for a public demo yet.
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://youtu.be/FNg8Cw_a0Yk",
+      githubUrl: "https://github.com/mzati-dev/annex-frontend"
     },
 {
     title: "UmoyoCard | AI Digital Health Passport Scanner",
@@ -30,9 +30,9 @@ const Projects: React.FC = () => {
     description: "A mobile application developed in Flutter that digitizes paper health passports. It leverages the Gemini AI model for advanced OCR to accurately extract handwritten medical text, which is then securely stored in a Firebase database. The app also features predictive analytics and data sharing capabilities for hospital systems.",
     image: "/image/health-passport-preview.jpg",
     technologies: ["Flutter", "Firebase", "Gemini API"],
-    liveUrl: "#",
-    githubUrl: "#"
-  }
+    liveUrl: "https://youtube.com/shorts/jcKpPlfPwB4",
+    githubUrl: "https://github.com/mzati-dev/umoyocard"
+  },
     // // --- CHANGE 1: Moved this project to the top ---
     // {
     //   title: "AI-Powered Analytics",

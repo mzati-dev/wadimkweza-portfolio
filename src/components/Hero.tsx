@@ -9,9 +9,6 @@ const Hero: React.FC = () => {
   const handleDownloadAndOpen = () => {
     const cvUrl = '/Wadi_Mkweza_CV.pdf';
 
-    // --- Action 1: Open the CV in a new tab ---
-    window.open(cvUrl, '_blank');
-
     // --- Action 2: Create a hidden link to trigger the download ---
     const link = document.createElement('a');
     link.href = cvUrl;

@@ -32,13 +32,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
         <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
           <div className="flex gap-2">
-            {liveUrl && (
+            {/* {liveUrl && (
               <a href={liveUrl} target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="bg-cyan-400 hover:bg-cyan-500 text-gray-900">
                   Live Demo
                 </Button>
               </a>
+            )} */}
+            {/* --- Start of Updated Button Code --- */}
+            {liveUrl && (
+              <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+                <Button size="sm" className="bg-cyan-400 hover:bg-cyan-500 text-gray-900">
+                  {liveUrl.includes('youtube.com') || liveUrl.includes('youtu.be')
+                    ? 'Video Demo'
+                    : 'Live Demo'}
+                </Button>
+              </a>
             )}
+            {/* --- End of Updated Button Code --- */}
 
             {/* --- Start of New Interactive Button Code --- */}
             {githubUrl && githubUrl !== "#" && githubUrl.length > 5 ? (
