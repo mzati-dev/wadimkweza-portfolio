@@ -33,17 +33,27 @@ const Hero: React.FC = () => {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
 
         {/* --- THIS IS THE CORRECT FIX FOR THE HEADING --- */}
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          <span className="block whitespace-nowrap">Full-Stack</span>
+        {/* <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <span className="block whitespace-nowrap">AI</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-            AI Developer
+            Engineer
           </span>
+        </h1> */}
+
+        {/* <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <span>AI</span>{' '}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+            Engineer
+          </span>
+        </h1> */}
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <span className="whitespace-nowrap mr-3">AI</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Engineer</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Crafting intelligent digital experiences by combining robust full-stack architecture with cutting-edge AI solutions.
+          Architecting the next generation of intelligent systems by deploying state-of-the-art machine learning models and scalable AI infrastructure.
         </p>
-
         {/* The button grid is correct from the previous version */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-sm mx-auto">
           <Button
