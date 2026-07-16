@@ -23,16 +23,16 @@ const Projects: React.FC = () => {
       // We set this to "#" since you want to keep the code private. The ProjectCard will hide the button.
       // githubUrl: "https://github.com/mzati-dev/maternal-frontend"
     },
-    {
-      title: "Eduspace Marketplace | Online Tutor & Lesson Platform ",
-      description: "Architecting a full-stack e-learning platform for teachers to sell lessons and for students to find tutor.",
-      // --- ACTION NEEDED: Replace this with your REAL project image URL ---
-      image: "/image/eduspace-marketplace.png",
-      technologies: ["Next.js", "NestJS", "PostgreSQL", "Tailwind CSS"],
-      // Set to "#" because it's not ready for a public demo yet.
-      liveUrl: "https://edumarketplace.mzatinova.com/",
-      // githubUrl: "https://github.com/mzati-dev/eduspace-marketplace-frontend.git"
-    },
+    // {
+    //   title: "Eduspace Marketplace | Online Tutor & Lesson Platform ",
+    //   description: "Architecting a full-stack e-learning platform for teachers to sell lessons and for students to find tutor.",
+    //   // --- ACTION NEEDED: Replace this with your REAL project image URL ---
+    //   image: "/image/eduspace-marketplace.png",
+    //   technologies: ["Next.js", "NestJS", "PostgreSQL", "Tailwind CSS"],
+    //   // Set to "#" because it's not ready for a public demo yet.
+    //   liveUrl: "https://edumarketplace.mzatinova.com/",
+    //   // githubUrl: "https://github.com/mzati-dev/eduspace-marketplace-frontend.git"
+    // },
 
     // // --- CHANGE 1: Moved this project to the top ---
     // {
