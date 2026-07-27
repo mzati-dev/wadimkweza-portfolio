@@ -56,7 +56,8 @@ const Contact: React.FC = () => {
     setStatusMessage('');
 
     try {
-      const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/send-email`;
+      // const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/send-email`;
+     cost apiUrl https://wadimkweza-portfolio-backend.onrender.com
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
