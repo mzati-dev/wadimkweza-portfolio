@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
 
     try {
       // const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/send-email`;
-     const apiUrl https://wadimkweza-portfolio-backend.onrender.com
+     const apiUrl = "https://wadimkweza-portfolio-backend.onrender.com";
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
