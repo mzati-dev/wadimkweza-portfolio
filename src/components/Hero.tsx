@@ -46,10 +46,12 @@ const Hero: React.FC = () => {
             Engineer
           </span>
         </h1> */}
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          <span className="whitespace-nowrap mr-3">Computer Science</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Educator & Developer</span>
-        </h1>
+<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+  <span className="block whitespace-nowrap">Computer Science</span>
+  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+    Educator & Developer
+  </span>
+</h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
           Combining a background in education with software development skills to build practical technology solutions across different sectors.
         </p>
