@@ -25,8 +25,8 @@ const About: React.FC = () => {
               About <span className="text-cyan-400">Me</span>
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a Computer Science Educator and Developer. I build practical software — from
-              full-stack web applications to applied machine learning models — and I ground that
+              I'm a Computer Science Educator and Developer. I build practical software, from
+              full-stack web applications to applied machine learning models, and I ground that
               work in a clear understanding of the problems I'm solving, drawn from my background
               in teaching computer science.
             </p>
@@ -38,7 +38,9 @@ const About: React.FC = () => {
               that foundation with every new project.
             </p>
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
+              <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
+  Education
+</h3>
               <p className="text-gray-300">
                 Bachelor of Education (Computer Science) — University of Malawi
               </p>
