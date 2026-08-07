@@ -3,19 +3,17 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const About: React.FC = () => {
   const skills = [
-    { name: "Machine Learning & Deep Learning", level: 95 },
-    { name: "MLOps & Model Deployment", level: 92 },
-    { name: "Generative AI & LLMs", level: 90 },
-    { name: "Backend & API Development", level: 88 },
-    { name: "Data Engineering & Pipelines", level: 85 },
-    { name: "Cloud Architecture (AWS/GCP)", level: 85 },
-    { name: "System Design & Scalability", level: 82 }
+    { name: "Full-Stack Web Development", level: 85 },
+    { name: "Backend & API Development", level: 80 },
+    { name: "Database Design (PostgreSQL)", level: 78 },
+    { name: "Applied Machine Learning", level: 70 },
+    { name: "Data Analysis & Modeling", level: 68 },
+    { name: "React & Frontend Development", level: 82 },
   ];
 
   const technologies = [
-    "Python", "PyTorch", "TensorFlow", "Hugging Face", "LangChain",
-    "FastAPI", "Docker", "Kubernetes", "AWS", "Vector DBs (Pinecone/Weaviate)",
-    "PostgreSQL", "Kafka", "CUDA", "TypeScript", "React"
+    "Python", "TypeScript", "React", "Next.js", "NestJS",
+    "PostgreSQL", "Supabase", "Flask", "TensorFlow"
   ];
 
   return (
@@ -27,12 +25,24 @@ const About: React.FC = () => {
               About <span className="text-cyan-400">Me</span>
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I am an AI Engineer focused on architecting and deploying production-ready machine learning systems. I bridge the gap between research and software engineering, taking complex AI models out of notebooks and building the scalable infrastructure required to run them reliably in the real world.
+              I'm a Computer Science Educator and Developer. I build practical software — from
+              full-stack web applications to applied machine learning models — and I ground that
+              work in a clear understanding of the problems I'm solving, drawn from my background
+              in teaching computer science.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              My expertise lies in Generative AI, MLOps, and robust backend systems. Whether it is optimizing large language models for low-latency inference, designing distributed data pipelines, or orchestrating microservices, I build the backbone that makes intelligent applications function at scale.
+              My work spans building complete systems end-to-end: designing databases, developing
+              backend APIs, building frontend interfaces, and training machine learning models for
+              real, applied use cases. I've shipped a results-access platform used by a real school
+              and a health-risk prediction model with measurable accuracy, and I keep building on
+              that foundation with every new project.
             </p>
-
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
+              <p className="text-gray-300">
+                Bachelor of Education (Computer Science) — University of Malawi
+              </p>
+            </div>
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-white mb-4">Technologies I Work With</h3>
               <div className="flex flex-wrap gap-3">
@@ -47,7 +57,6 @@ const About: React.FC = () => {
               </div>
             </div>
           </div>
-
           <div>
             <Card className="bg-gray-900 border-gray-700">
               <CardContent className="p-8">
@@ -56,7 +65,6 @@ const About: React.FC = () => {
                   alt="Professional headshot"
                   className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-cyan-400 object-cover"
                 />
-
                 <div className="space-y-6">
                   <h3 className="text-xl font-semibold text-white text-center mb-6">Skills & Expertise</h3>
                   {skills.map((skill) => (
@@ -84,6 +92,94 @@ const About: React.FC = () => {
 };
 
 export default About;
+
+
+// import React from 'react';
+// import { Card, CardContent } from '@/components/ui/card';
+
+// const About: React.FC = () => {
+//   const skills = [
+//     { name: "Machine Learning & Deep Learning", level: 95 },
+//     { name: "MLOps & Model Deployment", level: 92 },
+//     { name: "Generative AI & LLMs", level: 90 },
+//     { name: "Backend & API Development", level: 88 },
+//     { name: "Data Engineering & Pipelines", level: 85 },
+//     { name: "Cloud Architecture (AWS/GCP)", level: 85 },
+//     { name: "System Design & Scalability", level: 82 }
+//   ];
+
+//   const technologies = [
+//     "Python", "PyTorch", "TensorFlow", "Hugging Face", "LangChain",
+//     "FastAPI", "Docker", "Kubernetes", "AWS", "Vector DBs (Pinecone/Weaviate)",
+//     "PostgreSQL", "Kafka", "CUDA", "TypeScript", "React"
+//   ];
+
+//   return (
+//     <section id="about" className="py-8 bg-gray-800">
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+//           <div>
+//             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+//               About <span className="text-cyan-400">Me</span>
+//             </h2>
+//             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+//               I am an AI Engineer focused on architecting and deploying production-ready machine learning systems. I bridge the gap between research and software engineering, taking complex AI models out of notebooks and building the scalable infrastructure required to run them reliably in the real world.
+//             </p>
+//             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+//               My expertise lies in Generative AI, MLOps, and robust backend systems. Whether it is optimizing large language models for low-latency inference, designing distributed data pipelines, or orchestrating microservices, I build the backbone that makes intelligent applications function at scale.
+//             </p>
+
+//             <div className="mb-8">
+//               <h3 className="text-xl font-semibold text-white mb-4">Technologies I Work With</h3>
+//               <div className="flex flex-wrap gap-3">
+//                 {technologies.map((tech) => (
+//                   <span
+//                     key={tech}
+//                     className="px-4 py-2 bg-gray-700 text-cyan-400 rounded-lg font-medium hover:bg-gray-600 transition-colors"
+//                   >
+//                     {tech}
+//                   </span>
+//                 ))}
+//               </div>
+//             </div>
+//           </div>
+
+//           <div>
+//             <Card className="bg-gray-900 border-gray-700">
+//               <CardContent className="p-8">
+//                 <img
+//                   src="/headshot.JPG"
+//                   alt="Professional headshot"
+//                   className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-cyan-400 object-cover"
+//                 />
+
+//                 <div className="space-y-6">
+//                   <h3 className="text-xl font-semibold text-white text-center mb-6">Skills & Expertise</h3>
+//                   {skills.map((skill) => (
+//                     <div key={skill.name}>
+//                       <div className="flex justify-between mb-2">
+//                         <span className="text-gray-300 font-medium">{skill.name}</span>
+//                         <span className="text-cyan-400 font-semibold">{skill.level}%</span>
+//                       </div>
+//                       <div className="w-full bg-gray-700 rounded-full h-2">
+//                         <div
+//                           className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2 rounded-full transition-all duration-1000"
+//                           style={{ width: `${skill.level}%` }}
+//                         />
+//                       </div>
+//                     </div>
+//                   ))}
+//                 </div>
+//               </CardContent>
+//             </Card>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default About;
 
 
 // import React from 'react';
