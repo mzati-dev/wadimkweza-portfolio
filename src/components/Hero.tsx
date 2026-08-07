@@ -47,13 +47,20 @@ const Hero: React.FC = () => {
           </span>
         </h1> */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <span className="whitespace-nowrap mr-3">Computer Science</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Educator & Developer</span>
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+          Combining a background in education with software development skills to build practical technology solutions across different sectors.
+        </p>
+        {/* <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           <span className="whitespace-nowrap mr-3">AI</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Engineer</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
           Architecting the next generation of intelligent systems by deploying state-of-the-art machine learning models and scalable AI infrastructure.
-        </p>
+        </p> */}
         {/* The button grid is correct from the previous version */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-sm mx-auto">
           <Button
