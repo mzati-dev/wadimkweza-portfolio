@@ -3,16 +3,16 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const About: React.FC = () => {
   const skills = [
-    { name: "Full-Stack Web Development", level: 85 },
-    { name: "Backend & API Development", level: 80 },
-    { name: "Database Design (PostgreSQL)", level: 78 },
-    { name: "Applied Machine Learning", level: 70 },
-    { name: "Data Analysis & Modeling", level: 68 },
-    { name: "React & Frontend Development", level: 82 },
+    { name: "Full-Stack Development"},
+    { name: "Backend & API Development"},
+    { name: "Database Design (PostgreSQL)"},
+    { name: "Applied Machine Learning"},
+    { name: "Data Analysis & Modeling"},
+    { name: "React & Frontend Development"},
   ];
 
   const technologies = [
-    "Python", "TypeScript", "React", "Next.js", "NestJS",
+    "Python", "TypeScript", "JavaScript", "PHP", "React", "Next.js", "NodeJs", "Laravel",
     "PostgreSQL", "Supabase", "Flask", "TensorFlow"
   ];
 
@@ -25,17 +25,19 @@ const About: React.FC = () => {
               About <span className="text-cyan-400">Me</span>
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a Computer Science Educator and Developer. I build practical software, from
-              full-stack web applications to applied machine learning models, and I ground that
-              work in a clear understanding of the problems I'm solving, drawn from my background
-              in teaching computer science.
+             I'm a Computer Science Educator and Developer. I build practical software, 
+              from full-stack development to applied machine learning models, 
+              and I ground that work in a clear understanding of the problems I'm solving, 
+              drawn from my background in teaching computer science.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              My work spans building complete systems end-to-end: designing databases, developing
-              backend APIs, building frontend interfaces, and training machine learning models for
-              real, applied use cases. I've shipped a results-access platform used by a real school
-              and a health-risk prediction model with measurable accuracy, and I keep building on
-              that foundation with every new project.
+              My work spans building complete systems end-to-end: designing databases, 
+              developing backend APIs, building frontend interfaces, 
+              and training machine learning models for real, applied use cases. 
+              I'm the founder of Mzatinova and the creator of EduSpace, an education management platform 
+              whose Portal product is live in two schools.
+              I also built a maternal health risk prediction model with 94% accuracy, 
+              and I keep building on that foundation with every new project.
             </p>
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
