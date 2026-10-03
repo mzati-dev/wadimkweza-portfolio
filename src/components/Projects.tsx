@@ -5,11 +5,11 @@ const Projects: React.FC = () => {
   const projects = [
 
     {
-      title: "EduSpace Portal | Results Access System ",
-      description: "A web-based results access system that allows teachers to upload student results and parents to retrieve them instantly using a unique exam number. Built with React and NestJS, with all academic data securely stored in a PostgreSQL database.",
+      title: "EduSpace | Education Management Platform",
+      description: "An education management platform made up of four products: Portal (school management system), Learn (learning management), Library (school resources) and Connect (tutor discovery). EduSpace Portal gives directors, headteachers, teachers and parents role-based dashboards for results, attendance, fees and communication, and is live in production at Progress Private Primary School and Stepping Stones Primary School.",
       image: "/image/eduspace-portal.png",
       technologies: ["React", "NestJS", "PostgreSQL"],
-      liveUrl: "https://portal.mzatinova.com/",
+      liveUrl: "https://edu.mzatinova.com/",
       // githubUrl: "https://github.com/mzati-dev/eduspace-portal-frontend.git"
     },
     {
