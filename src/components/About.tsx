@@ -69,23 +69,19 @@ const About: React.FC = () => {
                   alt="Professional headshot"
                   className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-cyan-400 object-cover"
                 />
-                <div className="space-y-6">
-                  <h3 className="text-xl font-semibold text-white text-center mb-6">Skills & Expertise</h3>
-                  {skills.map((skill) => (
-                    <div key={skill.name}>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-gray-300 font-medium">{skill.name}</span>
-                        <span className="text-cyan-400 font-semibold">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-gray-700 rounded-full h-2">
-                        <div
-                          className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2 rounded-full transition-all duration-1000"
-                          style={{ width: `${skill.level}%` }}
-                        />
-                      </div>
-                    </div>
-                  ))}
-                </div>
+           <div>
+  <h3 className="text-xl font-semibold text-white text-center mb-6">Skills & Expertise</h3>
+  <div className="flex flex-col gap-3">
+    {skills.map((skill) => (
+      <div
+        key={skill.name}
+        className="bg-gray-800 px-4 py-3 rounded-lg text-center text-cyan-400 font-medium"
+      >
+        {skill.name}
+      </div>
+    ))}
+  </div>
+</div>
               </CardContent>
             </Card>
           </div>
