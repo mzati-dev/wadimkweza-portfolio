@@ -4,14 +4,24 @@ import ProjectCard from './ProjectCard';
 const Projects: React.FC = () => {
   const projects = [
 
+    // {
+    //   title: "EduSpace | Education Management Platform",
+    //   description: "An education management platform made up of four products: Portal (school management system), Learn (learning management), Library (school resources) and Connect (tutor discovery). EduSpace Portal gives directors, headteachers, teachers and parents role-based dashboards for results, attendance, fees and communication, and is live in production at Progress Private Primary School and Stepping Stones Primary School.",
+    //   image: "/image/eduspace-portal.png",
+    //   technologies: ["React", "NestJS", "PostgreSQL"],
+    //   liveUrl: "https://portal.edu.mzatinova.com/",
+    //   // githubUrl: "https://github.com/mzati-dev/eduspace-portal-frontend.git"
+    // },
+
     {
-      title: "EduSpace | Education Management Platform",
-      description: "An education management platform made up of four products: Portal (school management system), Learn (learning management), Library (school resources) and Connect (tutor discovery). EduSpace Portal gives directors, headteachers, teachers and parents role-based dashboards for results, attendance, fees and communication, and is live in production at Progress Private Primary School and Stepping Stones Primary School.",
-      image: "/image/eduspace-portal.png",
-      technologies: ["React", "NestJS", "PostgreSQL"],
-      liveUrl: "https://edu.mzatinova.com/",
-      // githubUrl: "https://github.com/mzati-dev/eduspace-portal-frontend.git"
-    },
+  title: "EduSpace Portal | School Management System",
+  description: "A school management system that gives directors, headteachers, teachers and parents role-based dashboards for results, attendance, fees and communication. It replaces paper records and scattered messages with one place to run daily school operations. Live in production at Progress Private Primary School and Stepping Stones Primary School. Part of the wider EduSpace suite.",
+  image: "/image/eduspace-portal.png",
+  technologies: ["React", "NestJS", "PostgreSQL"],
+  liveUrl: "https://portal.edu.mzatinova.com/",
+  // githubUrl: "https://github.com/mzati-dev/eduspace-portal-frontend.git"
+},
+    
     {
       title: "AI-Powered Maternal Health Risk Prediction",
       description: "Developed and trained a custom machine learning model to predict maternal health risks, achieving 94% accuracy and providing personalized care recommendations.",
